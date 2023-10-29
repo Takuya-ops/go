@@ -24,10 +24,10 @@ func main() {
 	if (v.x == v.y) && ((v.x > 0) && (v.y > 0)) {
 		// fmt.Printf("正方形の面積は、%vです。", square_calc(v))
 		// 値レシーバー
-		fmt.Printf("正方形の面積は、%vです。", v.square_calc())
+		fmt.Printf("この正方形の面積は、%vです。", v.square_calc())
 	} else if v.x <= 0 && v.y <= 0 {
 		fmt.Println("面積は存在しません。")
 	} else {
-		fmt.Printf("長方形の面積は、%vです。", square_calc(v))
+		fmt.Printf("この長方形の面積は、%vです。", square_calc(v))
 	}
 }

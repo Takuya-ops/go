@@ -15,7 +15,8 @@ func (c circle) circle_volume() float64 {
 }
 
 func main() {
-	circle := circle{1, 3}
+	// circle := circle{1, 3}
+	circle := circle{2, 3}
 	fmt.Println(circle.circle_volume())
 
 }

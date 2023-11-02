@@ -1,9 +1,10 @@
 package main
 
 type Person struct {
-	Name   string
-	Age    int
-	Gender string
+	Name    string
+	Age     int
+	Gender  string
+	Address string
 }
 
 func main() {

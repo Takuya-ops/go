@@ -5,6 +5,7 @@ type Person struct {
 	Age     int
 	Gender  string
 	Address string
+	Height  int
 }
 
 func main() {

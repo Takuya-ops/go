@@ -12,7 +12,7 @@ import (
 
 var local embed.FS
 
-func main() {
+func embed2() {
 	fis, err := local.ReadDir("sample")
 	if err != nil {
 		log.Fatal(err)

@@ -47,7 +47,7 @@ func main() {
 	delete(m, "Mark")
 	fmt.Println(m)
 
-	// mapのキーと値の列挙
+	// mapのキーと値の列挙（順序を持たない）
 	for k, v := range m {
 		fmt.Printf("key: %v, value: %v\n", k, v)
 	}
